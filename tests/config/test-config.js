@@ -24,6 +24,35 @@ module.exports = {
     actionDelay: 1000 // delay between actions in milliseconds (for demo/viewing purposes)
   },
   
+  // Device viewport configurations for responsive testing
+  viewports: {
+    mobile: {
+      width: 375,
+      height: 667,
+      deviceName: 'iPhone 8'
+    },
+    mobileSmall: {
+      width: 320,
+      height: 568,
+      deviceName: 'iPhone 5/SE'
+    },
+    mobileLarge: {
+      width: 414,
+      height: 896,
+      deviceName: 'iPhone 11'
+    },
+    tablet: {
+      width: 768,
+      height: 1024,
+      deviceName: 'iPad'
+    },
+    desktop: {
+      width: 1920,
+      height: 1080,
+      deviceName: 'Desktop'
+    }
+  },
+  
   // Test data
   testData: {
     contactForm: {
