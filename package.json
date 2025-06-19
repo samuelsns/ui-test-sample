@@ -1,0 +1,16 @@
+{
+  "name": "gugut-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for Gugut after-school program",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "landing-page",
+    "after-school",
+    "education"
+  ],
+  "author": "",
+  "license": "ISC"
+}
