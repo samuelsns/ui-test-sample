@@ -1,15 +1,6 @@
-# Gugut - After School Program Landing Page
+# Project XoX - Landing Page
 
-A mobile-first landing page for Gugut, an after-school program designed to showcase the program's offerings and allow parents to get in touch.
-
-## Features
-
-- Responsive, mobile-first design
-- Clean and modern UI
-- Interactive navigation menu
-- Program showcase section
-- Contact form
-- Smooth scrolling
+A mobile-first landing page for Project XoX, designed to showcase UI automated tests 
 
 ## Structure
 
@@ -33,15 +24,12 @@ A mobile-first landing page for Gugut, an after-school program designed to showc
 2. Open `index.html` in your browser to view the landing page
 3. Modify content as needed for your specific program details
 
-## Customization
-
-You can easily customize this landing page by:
-
-- Updating the color scheme in the CSS variables at the top of `styles.css`
-- Replacing the placeholder images with your own program photos
-- Modifying the program details and contact information
-- Adding additional sections as needed
-
 ## License
 
 This project is open source and available for use in your own projects.
+
+## Dev setup
+
+1. Run `npm install`
+2. Run `npm start` to run the page standalone
+3. Run `npx mocha /tests/performance.test.js` to run perfomrance test -> change the test file name to other tests 
